@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JokemPô - Projeto de Luan `Pedro Fassina</title>
+</head>
+
+<body>
+
+    <section class="em-cima">
+        <div class="perfil"><img class="imagem-de-perfil" alt="Imagem de perfil do computador"
+                src="assets/perfil-do-computador.png">
+            <h3 class="oque-e">Computador</h3>
+            <h2 class="nivel-do-robo">NÍVEL 1</h2>
+        </div>
+        <p class="pontos-do-robo">Pontos: <span class="robo">0</span></p>
+    </section>
+
+    <section class="em-baixo">
+        <div class="opcoes">
+            <a id="papel"><img class="papel" src="assets/papel.png"></a>
+            <a id="tesoura"><img class="tesoura" src="assets/tesoura.png"></a>
+            <a id="pedra"><img class="pedra" src="assets/pedra.png"></a>
+        </div>
+        <p class="pontos-do-usuario">Pontos: <span class="user">0</span></p>
+    </section>
+
+
+    <div class="div">
+        <div class="escolha-do-div">
+            <p>Jogada do computador</p>
+            <img class="escolha-do-computador" alt="escolha-do-computador" src="assets/pedra.png">
+        </div>
+        <p class="resultado">Resultado: <span class="quem-venceu">Computador venceu</span></p>
+        <div class="pontos">
+            <p class="ponto-do-usuario">Seus pontos: <span class="pontoUsuario">0</span></p>
+            <p class="ponto-do-computador">pontos do computador: <span class="ponto-computador">0</span></p>
+        </div>
+        <div class="botao-ok">
+            <button id="OK" onclick="fecharJanela()">OK</button>
+        </div>
+    </div>
+
+    <div class="div-final">
+        <h2>Parabéns!</h2>
+        <p class="concluiu">Você concluiu o jogo.</p>
+        <div class="imagem-de-trofeu">
+            <img class="trofeu" src="assets/troféu.png">
+        </div>
+        <p class="obrigado">Obrigado por jogar! Você chegou ao fim do desafio e isso mostra
+            atenção, estratégia e persistência. Espero que tenha se divertido a cada rodada, pensando na melhor
+            jogada e enfrentando cada nível com foco.
+            Independentemente do resultado, sua participação é o que dá sentido ao jogo. Agradeço por dedicar seu
+            tempo.</p>
+        <div class="centralizar">
+            <button class="concluir" onclick="concluirJogo()">Concluir</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

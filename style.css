@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("assets/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.em-cima {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.imagem-de-perfil {
+    width: 80px;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.oque-e {
+    font-size: 10px;
+    color: gray;
+    width: 100%;
+    text-align: center;
+}
+
+.nivel-do-robo {
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
+
+.pontos-do-robo {
+    font-size: 15px;
+    color: black;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.pontos-do-robo span {
+    color: brown;
+}
+
+.em-baixo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 244px;
+}
+
+.opcoes {
+    background-color: white;
+    width: 853px;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 97px;
+    padding: 20px;
+}
+
+.papel,
+.tesoura,
+.pedra {
+    height: 320px;
+    width: 206px;
+    border-radius: 20px;
+}
+
+.papel {
+    background-color: yellow;
+}
+
+.tesoura {
+    background-color: rgb(141, 139, 141);
+}
+
+.pedra {
+    background-color: green
+}
+
+#pedra,
+#tesoura,
+#papel {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#tesoura:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#pedra:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#papel:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.pontos-do-usuario {
+    font-size: 15px;
+    color: black;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 340px;
+    border-radius: 5px;
+}
+
+.pontos-do-usuario span {
+    color: rgb(85, 85, 255);
+}
+
+.div {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: 580px;
+}
+
+.escolha-do-div {
+    text-align: center;
+    font-size: 20px;
+}
+
+.escolha-do-computador {}
+
+.resultado {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.pontos {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 45px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    height: 42px;
+    padding-top: 9px;
+    background-color: #c6c6c6;
+}
+
+.ponto-do-computador span {
+    color: brown;
+}
+
+.ponto-do-usuario span {
+    color: rgb(85, 85, 255);
+}
+
+.botao-ok {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#OK {
+    cursor: pointer;
+    width: 80px;
+    height: 39px;
+    border: 2px solid #009900;
+    background-color: #00c200;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #0d310f;
+    transition: 0.5s;
+}
+
+#OK:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.div-final {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 752px;
+    height: 707px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.imagem-de-trofeu {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.concluiu {
+    width: 100%;
+    text-align: center;
+    color: gray;
+}
+
+.trofeu {
+    width: 300px;
+}
+
+.obrigado {
+    width: 100%;
+    text-align: center;
+}
+
+.concluir {
+    cursor: pointer;
+    width: 80px;
+    height: 39px;
+    border: 2px solid #009900;
+    background-color: #00c200;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #0d310f;
+    transition: 0.5s;
+}
+
+.concluir:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.centralizar {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

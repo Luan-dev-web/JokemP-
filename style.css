@@ -1547,13 +1547,13 @@ h2 {
     }
 
     .div {
-        display: block;
+        display: none;
         position: fixed;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         background: #fff;
-        padding: 20px;
+        padding: 15px;
         border-radius: 8px;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
         width: 330px;
@@ -1584,7 +1584,7 @@ h2 {
 
     .pontos {
         display: flex;
-        gap: 30px;
+        gap: 25px;
         justify-content: center;
         margin-top: 45px;
         border: 2px solid gray;

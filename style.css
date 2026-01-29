@@ -274,8 +274,1994 @@ h2 {
     transform: scale(1.1);
     opacity: 0.8;
 }
+
 .centralizar {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1201px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 244px;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 632px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 47px;
+        padding: 20px;
+        height: 365px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 245px;
+        width: 166px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 500px;
+        height: 580px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 752px;
+        height: 707px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 300px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 244px;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 524px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 47px;
+        padding: 20px;
+        height: 265px;
+        margin-top: 99px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 180px;
+        width: 130px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 500px;
+        height: 580px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 752px;
+        height: 707px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 300px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 244px;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 365px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 35px;
+        padding: 20px;
+        height: 265px;
+        margin-top: 99px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 130px;
+        width: 85px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 500px;
+        height: 580px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 540px;
+        height: 707px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 300px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        margin-left: 0;
+        text-align: center;
+        background-color: white;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 365px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 35px;
+        padding: 20px;
+        height: 171px;
+        margin-top: 6px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 130px;
+        width: 85px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 389px;
+        height: 543px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 415px;
+        height: 713px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 300px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        margin-left: 0;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 313px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 25px;
+        padding: 15px;
+        height: 143px;
+        margin-top: 6px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 108px;
+        width: 74px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 330px;
+        height: 543px;
+    }
+
+    .ponto-do-computador {
+        font-size: 14px;
+    }
+
+    .ponto-do-usuario {
+        font-size: 14px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 353px;
+        height: 750px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 300px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        margin-left: 0;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 288px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 17px;
+        padding: 15px;
+        height: 143px;
+        margin-top: 6px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 108px;
+        width: 74px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #FFE;
+        padding: 8px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 280px;
+        height: 504px;
+    }
+
+    .ponto-do-computador {
+        font-size: 13px;
+    }
+
+    .ponto-do-usuario {
+        font-size: 13px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 309px;
+        height: 690px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 215px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 330px) {
+
+
+    .em-cima {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .perfil {
+        background-color: rgb(255, 255, 255);
+        width: 130px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+
+    .imagem-de-perfil {
+        width: 80px;
+        border-radius: 50px;
+        justify-content: center;
+        margin-left: 25px;
+    }
+
+    .oque-e {
+        font-size: 10px;
+        color: gray;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nivel-do-robo {
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pontos-do-robo {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        margin-left: 0;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-robo span {
+        color: brown;
+    }
+
+    .em-baixo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .opcoes {
+        background-color: white;
+        width: 250px;
+        border-radius: 10px;
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        padding: 15px;
+        height: 125px;
+        margin-top: 6px;
+    }
+
+    .papel,
+    .tesoura,
+    .pedra {
+        height: 97px;
+        width: 65px;
+        border-radius: 20px;
+    }
+
+    .papel {
+        background-color: yellow;
+    }
+
+    .tesoura {
+        background-color: rgb(141, 139, 141);
+    }
+
+    .pedra {
+        background-color: green
+    }
+
+    #pedra,
+    #tesoura,
+    #papel {
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #tesoura:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #pedra:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    #papel:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .pontos-do-usuario {
+        font-size: 15px;
+        color: black;
+        width: 70px;
+        height: 20px;
+        text-align: center;
+        background-color: white;
+        margin-left: 10px;
+        margin-top: 340px;
+        border-radius: 5px;
+    }
+
+    .pontos-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .div {
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #FFE;
+        padding: 8px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 255px;
+        height: 501px;
+    }
+
+    .ponto-do-computador {
+        font-size: 13px;
+    }
+
+    .ponto-do-usuario {
+        font-size: 13px;
+    }
+
+    .escolha-do-div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .escolha-do-computador {}
+
+    .resultado {
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pontos {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-top: 45px;
+        border: 2px solid gray;
+        border-radius: 6px;
+        height: 42px;
+        padding-top: 9px;
+        background-color: #c6c6c6;
+    }
+
+    .ponto-do-computador span {
+        color: brown;
+    }
+
+    .ponto-do-usuario span {
+        color: rgb(85, 85, 255);
+    }
+
+    .botao-ok {
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #OK {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    #OK:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .div-final {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        width: 260px;
+        height: 639px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .imagem-de-trofeu {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .concluiu {
+        width: 100%;
+        text-align: center;
+        color: gray;
+    }
+
+    .trofeu {
+        width: 215px;
+    }
+
+    .obrigado {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .concluir {
+        cursor: pointer;
+        width: 80px;
+        height: 39px;
+        border: 2px solid #009900;
+        background-color: #00c200;
+        border-radius: 8px;
+        font-size: 20px;
+        color: #0d310f;
+        transition: 0.5s;
+    }
+
+    .concluir:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    .centralizar {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
 }
